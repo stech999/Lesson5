@@ -40,7 +40,7 @@ void PrintEven (int[] value)
 
     for (int i = 0; i < value.Length; i++)
     {
-        if(value[i] % 2 != 0)
+        if(i % 2 != 0)
         {
             num1 += value[i];
         }
